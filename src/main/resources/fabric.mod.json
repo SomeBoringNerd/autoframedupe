@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "autoframedupe",
+  "version": "${version}",
+  "name": "autoframedupe",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/someboringnerd/autoframedupe"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/autoframedupe/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.someboringnerd.autoframedupe.client.AutoframedupeClient"
+    ],
+    "main": [
+      "xyz.someboringnerd.autoframedupe.Autoframedupe"
+    ]
+  },
+  "mixins": [
+    "autoframedupe.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}

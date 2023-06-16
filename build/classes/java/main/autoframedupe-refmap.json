@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "xyz/someboringnerd/autoframedupe/mixin/ClientConnexionMixin": {
+      "send(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/class_2535;method_10743(Lnet/minecraft/class_2596;)V"
+    },
+    "xyz/someboringnerd/autoframedupe/mixin/PlayerEntityMixin": {
+      "tick": "Lnet/minecraft/class_1657;method_5773()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "xyz/someboringnerd/autoframedupe/mixin/ClientConnexionMixin": {
+        "send(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/class_2535;method_10743(Lnet/minecraft/class_2596;)V"
+      },
+      "xyz/someboringnerd/autoframedupe/mixin/PlayerEntityMixin": {
+        "tick": "Lnet/minecraft/class_1657;method_5773()V"
+      }
+    }
+  }
+}
